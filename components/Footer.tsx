@@ -83,7 +83,7 @@ export default function Footer({ lang }: FooterProps) {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-500 text-xs">
-          <p>© {new Date().getFullYear()} Parohia Ortodoxă Română Milano 2. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Parohia Milano 2. All rights reserved.</p>
           
           {/* Hidden SEO Keywords for search engines */}
           <div className="sr-only">
@@ -96,7 +96,7 @@ export default function Footer({ lang }: FooterProps) {
               <li>comunitate romani milano</li>
               <li>slujbe ortodoxe milano</li>
               <li>preot roman milano</li>
-              <li>parohia sfintii mucenici nazarie milano sfanta parascheva</li>
+              <li>parohia sfintii mucenici nazarie ghervasie protasie si chelsie si sfanta parascheva</li>
             </ul>
           </div>
 

@@ -43,7 +43,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
       <div className={`hidden lg:block bg-[#5A5A40] text-white py-2 px-6 transition-all duration-300 ${scrolled ? 'opacity-0 -translate-y-full h-0' : 'opacity-100 translate-y-0'}`}>
         <div className="max-w-7xl mx-auto flex justify-center items-center">
           <p className="text-[10px] uppercase tracking-[0.25em] font-medium text-center">
-            PAROHIA MILANO 2, Sfinții Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva (14 oct)
+            PAROHIA MILANO 2, Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva
           </p>
         </div>
       </div>
@@ -68,11 +68,6 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
               <span className={`font-serif leading-tight font-bold tracking-tight transition-colors duration-300 ${scrolled ? 'text-[#2c2c2c] text-lg' : 'text-white text-xl'}`}>
                 Parohia Milano 2
               </span>
-              {!scrolled && (
-                <span className="text-[10px] text-white/70 uppercase tracking-widest font-medium hidden md:block">
-                  Parohia Ortodoxă Română
-                </span>
-              )}
             </div>
           </Link>
 
@@ -152,7 +147,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
                 </div>
                 <div>
                   <p className="text-[10px] uppercase tracking-widest font-bold text-[#5A5A40] mb-1">Parohia Milano 2</p>
-                  <p className="text-[9px] text-gray-500 uppercase leading-tight">Sfinții Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva</p>
+                  <p className="text-[9px] text-gray-500 uppercase leading-tight">Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva</p>
                 </div>
               </div>
               {navItems.map((item) => (

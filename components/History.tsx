@@ -30,8 +30,8 @@ export default function History({ lang }: HistoryProps) {
             </span>
             <h2 className="font-serif text-3xl md:text-5xl font-bold mb-8 leading-tight">
               {lang === 'ro' 
-                ? 'Biserica Ortodoxă Română Milano 2 - Scurt Istoric' 
-                : 'Chiesa Ortodossa Romena Milano 2 - Breve Storia'}
+                ? 'Parohia Milano 2 - Scurt Istoric' 
+                : 'Parrocchia Milano 2 - Breve Storia'}
             </h2>
             
             <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
@@ -50,7 +50,7 @@ export default function History({ lang }: HistoryProps) {
           >
             <Image
               src="/images/history.jpg"
-              alt="Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva"
+              alt="Parohia Milano 2 - Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva"
               fill
               className="object-cover"
               referrerPolicy="no-referrer"

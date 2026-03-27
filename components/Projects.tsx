@@ -26,7 +26,7 @@ export default function Projects({ lang }: ProjectsProps) {
           >
             <Image
               src={data.image}
-              alt={`${data.title} - Biserica Ortodoxă Română Milano 2`}
+              alt={`${data.title} - Parohia Milano 2`}
               fill
               className="object-cover"
               referrerPolicy="no-referrer"
@@ -46,7 +46,7 @@ export default function Projects({ lang }: ProjectsProps) {
           >
             <span className="text-[#5A5A40] font-serif italic text-lg mb-2 block">{t.future}</span>
             <h2 className="font-serif text-3xl md:text-5xl font-bold mb-8 leading-tight">
-              <span className="sr-only">Donații și Contribuții Biserica Românească Milano - </span>
+              <span className="sr-only">Donații și Contribuții Parohia Milano 2 - </span>
               {data.title}
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6 text-lg">

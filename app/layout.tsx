@@ -16,8 +16,8 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva',
-    template: '%s | Biserica Ortodoxă Română Milano 2',
+    default: 'Parohia Milano 2 - Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva',
+    template: '%s | Parohia Milano 2',
   },
   description: 'Site-ul oficial al Parohiei Ortodoxe Române Milano 2. Biserica Românească la Milano: program slujbe, istoric, activități și comunitate ortodoxă în Italia.',
   keywords: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Biserica Ortodoxă Română Milano 2',
+    title: 'Parohia Milano 2',
     description: 'Biserica Românească la Milano: program slujbe, istoric, activități și comunitate ortodoxă în Italia.',
     url: 'https://ais-pre-ctsnz7w52ouch5bsonbra6-30414542259.europe-west1.run.app',
     siteName: 'Parohia Milano 2',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
         url: '/images/history.jpg',
         width: 1200,
         height: 630,
-        alt: 'Biserica Ortodoxă Română Milano 2',
+        alt: 'Parohia Milano 2',
       },
     ],
     locale: 'ro_RO',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Biserica Ortodoxă Română Milano 2',
+    title: 'Parohia Milano 2',
     description: 'Biserica Românească la Milano: program slujbe, istoric, activități și comunitate ortodoxă în Italia.',
     images: ['/images/history.jpg'],
   },
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'PlaceOfWorship',
-  'name': 'Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva',
+  'name': 'Parohia Milano 2 - Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva',
   'description': 'Parohia Ortodoxă Română Milano 2 - Biserica Românească la Milano.',
   'url': 'https://ais-pre-ctsnz7w52ouch5bsonbra6-30414542259.europe-west1.run.app',
   'logo': 'https://ais-pre-ctsnz7w52ouch5bsonbra6-30414542259.europe-west1.run.app/images/logo.jpeg',

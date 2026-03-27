@@ -34,7 +34,7 @@ export default function Slider() {
           <div className="relative flex-[0_0_100%] min-w-0 h-full" key={index}>
             <Image
               src={src}
-              alt={`Biserica Ortodoxă Română Milano 2 - Imagine Slider ${index + 1}`}
+              alt={`Parohia Milano 2 - Imagine Slider ${index + 1}`}
               fill
               className="object-cover brightness-50"
               priority={index === 0}

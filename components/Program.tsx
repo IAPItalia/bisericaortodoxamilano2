@@ -19,7 +19,7 @@ export default function Program({ lang }: ProgramProps) {
         <div className="text-center mb-16">
           <span className="text-[#5A5A40] font-serif italic text-lg mb-2 block">{data.title}</span>
           <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6">
-            <span className="sr-only">Program Slujbe Biserica Ortodoxă Română Milano 2 - </span>
+            <span className="sr-only">Program Slujbe Parohia Milano 2 - </span>
             {data.title}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
@@ -37,7 +37,7 @@ export default function Program({ lang }: ProgramProps) {
             <div className="relative aspect-[3/4] md:aspect-video rounded-2xl overflow-hidden">
               <Image
                 src={data.image}
-                alt={`${data.title} - Biserica Ortodoxă Română Milano 2 - Program Slujbe`}
+                alt={`${data.title} - Parohia Milano 2 - Program Slujbe`}
                 fill
                 className="object-contain"
                 referrerPolicy="no-referrer"

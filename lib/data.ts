@@ -1,7 +1,7 @@
 export const contactData = {
   name: {
-    ro: "Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva",
-    it: "Chiesa Ortodossa Romena Milano 2 - Parrocchia Ss. Nazario, Gervasio, Protasio e Celsio, S. Parascheva"
+    ro: "Parohia Milano 2 - Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva",
+    it: "Parrocchia Milano 2 - Santi Martiri Nazario, Gervasio, Protasio e Celso e Santa Parascheva"
   },
   address: "Via Giovanni della Casa 19, Milano",
   email: "milano2@mitropolia.eu",
@@ -19,14 +19,14 @@ export const contactData = {
 
 export const historyData = {
   ro: [
-    "Parohia „Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie, Sfânta Parascheva” din Milano a fost înființată în anul 2018 de către Preasfințitul Părinte Episcop Siluan al Episcopiei Ortodoxe Române a Italiei, fiind numit ca preot paroh părintele Ionuț Radu. Prima Sfântă Liturghie s-a săvârșit duminică, 15 aprilie 2018, în biserica intitulată San Filippo e Giacomo din Milano.",
+    "Parohia „Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva” din Milano a fost înființată în anul 2018 de către Preasfințitul Părinte Episcop Siluan al Episcopiei Ortodoxe Române a Italiei, fiind numit ca preot paroh părintele Ionuț Radu. Prima Sfântă Liturghie s-a săvârșit duminică, 15 aprilie 2018, în biserica intitulată San Filippo e Giacomo din Milano.",
     "Biserica Ortodoxă Română din Milano reprezintă un pilon spiritual și cultural esențial pentru românii din Italia. Parohia noastră, Milano 2, oferă un spațiu de rugăciune și comuniune, păstrând vie flacăra credinței ortodoxe și a identității naționale în diaspora.",
-    "Luni, 24 iunie 2024, Preasfințitul Părinte Atanasie de Bogdania, Arhiereul-vicar al Episcopiei Ortodoxe Române a Italiei a săvârșit Dumnezeiasca Liturghie la Parohia „Sfinții Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva” din localitatea Milano (Protopopiatul Lombardia I), încredințată, spre păstorire, PC Părinte Protopop Ștefan Cătălin Andronache."
+    "Luni, 24 iunie 2024, Preasfințitul Părinte Atanasie de Bogdania, Arhiereul-vicar al Episcopiei Ortodoxe Române a Italiei a săvârșit Dumnezeiasca Liturghie la Parohia „Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva” din localitatea Milano (Protopopiatul Lombardia I), încredințată, spre păstorire, PC Părinte Protopop Ștefan Cătălin Andronache."
   ],
   it: [
-    "La Parrocchia 'Santi Martiri Nazario, Gervasio, Protasio e Celso, Santa Parascheva' di Milano è stata fondata nel 2018 da Sua Eccellenza il Vescovo Siluan della Diocesi Ortodossa Romena d'Italia, con la nomina di padre Ionuț Radu come parroco. La prima Divina Liturgia è stata celebrata domenica 15 aprile 2018, nella chiesa di San Filippo e Giacomo a Milano.",
+    "La Parrocchia 'Santi Martiri Nazario, Gervasio, Protasio e Celso e Santa Parascheva' di Milano è stata fondata nel 2018 da Sua Eccellenza il Vescovo Siluan della Diocesi Ortodossa Romena d'Italia, con la nomina di padre Ionuț Radu come parroco. La prima Divina Liturgia è stata celebrata domenica 15 aprile 2018, nella chiesa di San Filippo e Giacomo a Milano.",
     "La Chiesa Ortodossa Romena di Milano rappresenta un pilastro spirituale e culturale essenziale per i romeni in Italia. La nostra parrocchia, Milano 2, offre uno spazio di preghiera e comunione, mantenendo viva la fiamma della fede ortodossa e dell'identità nazionale nella diaspora.",
-    "Lunedì 24 giugno 2024, Sua Eccellenza Atanasie di Bogdania, Vescovo Vicario della Diocesi Ortodossa Romena d'Italia, ha celebrato la Divina Liturgia presso la Parrocchia 'Santi Martiri Nazario, Gervasio, Protasio e Celso, Santa Parascheva' di Milano (Protopopiatul Lombardia I), affidata alla cura pastorale di PC Padre Protopapa Ștefan Cătălin Andronache."
+    "Lunedì 24 giugno 2024, Sua Eccellenza Atanasie di Bogdania, Vescovo Vicario della Diocesi Ortodossa Romena d'Italia, ha celebrato la Divina Liturgia presso la Parrocchia 'Santi Martiri Nazario, Gervasio, Protasio e Celso e Santa Parascheva' di Milano (Protopopiatul Lombardia I), affidata alla cura pastorale di PC Padre Protopapa Ștefan Cătălin Andronache."
   ]
 };
 

@@ -31,7 +31,7 @@ function ActivityCarousel({ images, title, index }: { images: string[], title: s
             <div key={i} className="relative flex-[0_0_100%] min-w-0 h-full">
               <Image
                 src={src}
-                alt={`${title} - Biserica Ortodoxă Română Milano 2 - Imagine ${i + 1}`}
+                alt={`${title} - Parohia Milano 2 - Imagine ${i + 1}`}
                 fill
                 className="object-cover"
                 referrerPolicy="no-referrer"

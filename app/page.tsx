@@ -33,9 +33,9 @@ export default function Home() {
 
       {/* Comprehensive SEO Hidden Section */}
       <div className="sr-only" aria-hidden="true">
-        <h2>Biserica Românească la Milano - Parohia Ortodoxă Română Milano 2</h2>
+        <h2>Biserica Românească la Milano - Parohia Milano 2</h2>
         <p>
-          Sunteți în căutarea unei biserici românești la Milano? Parohia Ortodoxă Română Milano 2, cu hramul Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie, Sfânta Parascheva, vă așteaptă cu drag. 
+          Sunteți în căutarea unei biserici românești la Milano? Parohia Milano 2, cu hramul Sfinții Mucenici Nazarie, Ghervasie, Protasie și Chelsie și Sfânta Parascheva, vă așteaptă cu drag. 
           Suntem o comunitate ortodoxă unită în inima Italiei, oferind sprijin spiritual și păstrarea tradițiilor noastre strămoșești.
         </p>
         <p>
