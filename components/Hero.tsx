@@ -36,7 +36,7 @@ export default function Hero({ lang }: HeroProps) {
               Patriarhia Română / Patriarcato Romeno
             </motion.span>
             <h1 className="font-serif text-4xl md:text-6xl lg:text-8xl text-white font-bold leading-[0.9] mb-8 tracking-tighter">
-              <span className="sr-only">Biserica Românească la Milano - Biserica Ortodoxă Română Milano 2</span>
+              <span className="sr-only">Biserica Românească la Milano - Parohia Ortodoxă Română Milano 2</span>
               {contactData.name[lang].split(' - ')[0]}
               <span className="block text-2xl md:text-3xl lg:text-4xl mt-4 font-light italic text-white/80 tracking-normal">
                 {contactData.name[lang].split(' - ')[1]}
