@@ -16,7 +16,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie',
+    default: 'Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva',
     template: '%s | Biserica Ortodoxă Română Milano 2',
   },
   description: 'Site-ul oficial al Parohiei Ortodoxe Române Milano 2. Biserica Românească la Milano: program slujbe, istoric, activități și comunitate ortodoxă în Italia.',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     'parohia milano 2',
     'ortodoxie milano',
     'comunitate romaneasca italia',
-    'sfintii mucenici nazarie ghervasie protasie si chelsie',
+    'sfintii mucenici nazarie ghervasie protasie si chelsie sfanta parascheva',
     'pr stefan catalin andronache',
     'program slujbe milano',
     'biserica ortodoxa milano',
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'PlaceOfWorship',
-  'name': 'Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie',
+  'name': 'Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva',
   'description': 'Parohia Ortodoxă Română Milano 2 - Biserica Românească la Milano.',
   'url': 'https://ais-pre-ctsnz7w52ouch5bsonbra6-30414542259.europe-west1.run.app',
   'logo': 'https://ais-pre-ctsnz7w52ouch5bsonbra6-30414542259.europe-west1.run.app/images/logo.jpeg',
