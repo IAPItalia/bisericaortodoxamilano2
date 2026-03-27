@@ -88,7 +88,7 @@ export default function Footer({ lang }: FooterProps) {
           {/* Hidden SEO Keywords for search engines */}
           <div className="sr-only">
             <h2>Biserica Românească la Milano</h2>
-            <p>Căutați o biserică ortodoxă română la Milano? Parohia Milano 2 vă întâmpină cu sfinte slujbe, comunitate și tradiții românești în Italia.</p>
+            <p>Căutați o biserică ortodoxă română la Milano? Parohia Milano 2 (Sf. Parascheva) vă întâmpină cu sfinte slujbe, comunitate și tradiții românești în Italia.</p>
             <ul>
               <li>biserica romaneasca milano</li>
               <li>biserica ortodoxa romana milano</li>
@@ -96,7 +96,7 @@ export default function Footer({ lang }: FooterProps) {
               <li>comunitate romani milano</li>
               <li>slujbe ortodoxe milano</li>
               <li>preot roman milano</li>
-              <li>parohia sfintii mucenici nazarie milano</li>
+              <li>parohia sfintii mucenici nazarie milano sfanta parascheva</li>
             </ul>
           </div>
 

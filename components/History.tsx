@@ -50,7 +50,7 @@ export default function History({ lang }: HistoryProps) {
           >
             <Image
               src="/images/history.jpg"
-              alt="Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie"
+              alt="Biserica Ortodoxă Română Milano 2 - Parohia Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie, Sf. Parascheva"
               fill
               className="object-cover"
               referrerPolicy="no-referrer"
