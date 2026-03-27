@@ -20,7 +20,7 @@ export const translations = {
     future: "Viitorul nostru",
     parishLife: "Viața Parohiei Ortodoxe",
     activitiesTitle: "Biserica Românească Milano - Activități",
-    footerDesc: "Biserica Ortodoxă Română Milano 2 - O comunitate deschisă tuturor celor care caută liniște sufletească și comuniune în tradiția ortodoxă.",
+    footerDesc: "Parohia Ortodoxă Română Milano 2 (Sf. Parascheva) - O comunitate deschisă tuturor celor care caută liniște sufletească și comuniune în tradiția ortodoxă.",
     usefulLinks: "Link-uri utile",
     supportProject: "Susține Proiectul",
     allRightsReserved: "Toate drepturile rezervate.",
