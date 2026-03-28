@@ -34,15 +34,32 @@ export const programData = {
   ro: {
     title: "Program Slujbe",
     description: "Vă invităm să participați la sfintele slujbe oficiate în parohia noastră.",
-    image: "/images/program.jpg"
+    images: [
+      {
+        title: "Program Aprilie 2026",
+        src: "/images/program-aprilie.jpg",
+      },
+      {
+        title: "Program Martie 2026",
+        src: "/images/program-martie.jpg",
+      },
+    ],
   },
   it: {
     title: "Orario delle Funzioni",
     description: "Vi invitiamo a partecipare alle sacre funzioni celebrate nella nostra parrocchia.",
-    image: "/images/program.jpg"
-  }
-};
-
+    images: [
+      {
+        title: "Programma Aprile 2026",
+        src: "/images/program-aprilie.jpg",
+      },
+      {
+        title: "Programma Marzo 2026",
+        src: "/images/program-martie.jpg",
+      },
+    ],
+  },
+}
 export const activitiesData = {
   ro: [
     {
