@@ -40,7 +40,7 @@ export default function Program({ lang }: ProgramProps) {
         {item.title}
       </h3>
 
-      <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+     <div className="relative aspect-[3/4] max-w-xl mx-auto rounded-2xl overflow-hidden">
         <Image
           src={item.src}
           alt={item.title}
