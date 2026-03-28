@@ -27,28 +27,35 @@ export default function Program({ lang }: ProgramProps) {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="bg-white p-4 rounded-[32px] shadow-sm border border-[#e6dfd1] overflow-hidden"
-          >
-            <div className="relative aspect-[3/4] md:aspect-video rounded-2xl overflow-hidden">
-              <Image
-                src={data.image}
-                alt={`${data.title} - Parohia Milano 2 - Program Slujbe`}
-                fill
-                className="object-contain"
-                referrerPolicy="no-referrer"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "https://picsum.photos/seed/program/1200/1600";
-                }}
-              />
-            </div>
-          </motion.div>
-        </div>
+        <div className="max-w-4xl mx-auto space-y-8">
+  {data.images.map((item, index) => (
+    <motion.div
+      key={item.src}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      className="bg-white p-4 rounded-[32px] shadow-sm border border-[#e6dfd1] overflow-hidden"
+    >
+      <h3 className="font-serif text-2xl font-bold mb-4 text-center">
+        {item.title}
+      </h3>
+
+      <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+        <Image
+          src={item.src}
+          alt={item.title}
+          fill
+          className="object-contain"
+          referrerPolicy="no-referrer"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = "https://picsum.photos/seed/program/1200/1600";
+          }}
+        />
+      </div>
+    </motion.div>
+  ))}
+</div>
 
         {/* Theofania Calendar */}
         <div className="mt-24 text-center">
